@@ -1,0 +1,698 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+body
+{
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+}
+
+ /*основное */
+
+.silka
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+.ober
+{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+
+.shapka
+{
+    
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+
+
+.shapka-text
+{
+    font-weight:bold;
+    font-size: 17px;
+    margin-right: 30px;
+}
+
+
+.sag
+{
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+
+.sag-silka
+{
+text-decoration: none;
+color: black
+}
+
+.sag-silka:hover{
+    color: red;
+}
+
+ /* шапка */
+
+
+
+
+.main
+{
+ flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    margin-bottom: 100px;
+}
+
+
+.main-texts
+{
+ width:600px;
+
+}
+
+.main-block-kart{
+    background-image: url("../2166.jpg");
+    border-radius: 50%;
+    width:350px;
+    height: 350px;
+   background-repeat: no-repeat;
+   background-position: center top -10px;
+   border: 13px solid white;
+}
+
+
+.main-sag
+{
+    margin-bottom: 20px;
+}
+
+
+/* история */
+
+.block-infa
+{
+    width: 80%;
+    margin: auto;
+}
+
+.block-infa-sag{
+   margin-bottom: 20px;
+}
+
+
+
+.aero-block
+{
+    height: 300px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.aero-text
+{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+}
+
+.aero-sag
+{
+    margin-bottom: 15px;
+}
+
+.aero-text
+{
+    margin-bottom: 5px;
+
+}
+
+.aero-kart-block
+{
+    width: 50%;
+  
+   
+}
+
+
+.aero-kart
+{
+    width: 100%;
+    height: 300px;
+}
+
+/* блоки с самолетами */
+
+
+
+
+.ober2
+{
+    width: 100%;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.podval
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.podval-silki
+{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.podval-silki-block
+{
+    margin-right: 10px;
+}
+
+.podval-silki-block
+{
+    display: flex;
+    align-items: center;
+}
+
+
+.podval-text
+{
+    margin-right: 5px;
+}
+
+.podval-silka
+{
+    text-decoration: none;
+    color: black;
+}
+
+/* контакты */
+
+
+
+
+
+@media screen and (max-width: 1230px){
+   .main-texts{
+       width: 50%;
+   }
+}
+
+@media screen and (max-width:950px)
+{
+    .main-texts{
+        width: 45%;
+    }
+    .main-text{
+        font-size: 12px;
+    }
+
+    .main-block-kart{
+        width: 350px;
+        height: 350px;
+    }
+    .aero-text{
+        width: 55%;
+        font-size: 14px;
+    }
+    .aero-kart-block
+    {
+        width: 45%;
+    }
+    .shapka{
+        width: 90%;
+    }
+    .main{
+        width: 90%;
+    }
+    .block-infa{
+        width: 90%;
+    }
+    .podval
+    {
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width:760px)
+{
+    .shapka{
+        width: 100%;
+    }
+    .main{
+        width: 100%;
+    }
+    .block-infa{
+        width: 100%;
+    }
+    .podval
+    {
+        width: 100%;
+    }
+   
+}
+
+@media screen and (max-width:690px)
+{
+    .main-texts{
+        width: 100%;
+        font-size: 15px;
+    }
+    .main-block-kart{
+       display: none;
+    }
+    .main{
+        margin-bottom: 0px;
+    }
+}
+
+
+@media screen and (max-width:600px){
+    .shapka-text
+    {
+        font-size: 14px;
+        margin-right: 5px;
+    }
+
+    .shapka-sag
+    {
+        font-size: 17px;
+    }
+    
+}
+
+@media screen and (max-width:450px)
+{
+.aero-block
+{
+    margin-bottom: 0;
+}
+
+
+    .aero-text{
+        width: 90%;
+        margin: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .aero-kart-block{
+        display: none;
+    }
+    .podval-text{
+        font-size:14px;
+    }
+    .podval-kart
+    {
+        width: 20px;
+        height: 20px;
+    }
+    .sag-silka
+    {
+        display: none;
+    }
+    .shapka-infa
+    {
+        margin-right: 0;
+        
+    }
+    .main{
+        margin-bottom: 50px;
+    }
+    .shapka{
+        width: 95%;
+    }
+    .main{
+        width: 95%;
+    }
+    .block-infa{
+        width: 95%;
+    }
+    .podval
+    {
+        width: 95%;
+    }
+}
+
+
+/* адаптив */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* вторая страница */
+
+
+.ober3
+{
+    margin-top: 400px;
+}
+
+
+.bron
+{
+   
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-box-shadow: 11px 12px 8px -2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 11px 12px 8px -2px rgba(0, 0, 0, 0.2);
+    box-shadow: 11px 12px 8px -2px rgba(0, 0, 0, 0.2);
+}
+
+.bron-sag-block
+{
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-bottom: 30px;
+}
+
+.bron-infa-verh
+{
+    padding-left: 5px;
+  
+}
+.bron-verh-text
+{
+    font-size: 10px;
+    color: gray;
+}
+
+.text1
+{
+    margin-right: 118px;
+}
+.text2
+{
+    margin-right: 112px;
+}
+.text3
+{
+    margin-right: 135px;
+}
+.text4
+{
+    margin-right: 120px;
+}
+.text5
+{
+    margin-right: 100px;
+}
+
+
+.bron-infa-nis
+{
+    padding-left: 5px;
+    margin-bottom: 30px;
+}
+
+.bron-vvod
+{
+    margin-right: 12px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+input:focus {
+    outline: none;
+  }
+
+.bron-prin-vvod
+{
+    padding-left: 5px;
+    display: flex;
+    padding-bottom: 40px;
+    align-items: center;
+}
+.bron-knopka-vvod
+{
+    width: 173px;
+    height:44px;
+    margin-left: 570px;
+}
+
+.bron-knopka-vvod{
+cursor: pointer;
+text-transform: uppercase;
+background: #3da35a;
+border: none;
+color: #ffffff;
+font-weight: 600;
+border-radius: 5px;
+box-shadow: 0 0 10px rgb(56,100,38);
+transition: all 1s;
+}
+
+.bron-knopka-vvod:hover {
+box-shadow: 0 0 25px rgb(56,100,38);
+}
+
+.bron-knopka-vvod:focus {
+outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+.bron-sakup
+{
+  display: flex;
+}
+
+
+.bron-silka
+{
+    text-decoration: none;
+}
+
+.bron-sakup-text
+{
+    color: black;
+    
+    font-size: 14px;
+    margin-left: 5px;
+    margin-right: 15px;
+  
+}
+.bron-sakup-block
+{
+    align-items: center;
+    display: flex;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1100px){
+    .bron
+    {
+        width: 95%;
+        margin: auto;
+    }
+    .bron-knopka-vvod
+    {
+      margin-left: 370px;
+    }
+    .bron-vvod
+    {
+        width: 130px;
+    }
+    .text1{
+        margin-right: 100px;
+    }
+    .text2{
+        margin-right: 90px;
+    }
+    .text3{
+        margin-right: 80px;
+    }
+    .text4
+    {
+        margin-right: 70px;
+    }
+}
+
+
+@media screen and (max-width:930px){
+    .bron-knopka-vvod
+    {
+      margin-left: 50%;
+      width: 150px;
+    }
+    .vvod1{
+        width: 50%;
+    }
+    .bron-infa-verh{
+        display: none;
+    }
+    .bron-infa-nis{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+/* личный кабинет */
+
+
+
+.cab
+{
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    height: 500px;
+    -webkit-box-shadow: 11px 12px 8px -2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 11px 12px 8px -2px rgba(0, 0, 0, 0.2);
+    box-shadow: 11px 12px 8px -2px rgba(0, 0, 0, 0.2);
+}
+
+.cab-sag-text
+{
+    margin-bottom: 20px;
+}
+
+.cab-sag
+{
+    margin-bottom: 20px;
+}
+
+.cab-infa
+{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    -webkit-transition: all;
+   -webkit-transition-duration: 600ms;
+}
+
+.cab-infa-kart-block{
+    width: 30%;
+}
+
+.cab-infa-text
+{
+    width: 70%;
+}
+
+.cab-block
+{
+   padding-top: 15px;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+
+
+.polosa
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: gray;
+    opacity: 0.9;
+}
+
+.cab-polosa-text
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+
+.bilet-spisok
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.bilet-sag-text
+{
+margin-top: 10px;
+}
+
+
+.bilet-infa
+{
+    margin-top: 5px;
+    
+}
+
+
+
+
+@media screen and (max-width:770px){
+    .cab-infa-kart-block{
+        display: none;
+    }
+    .cab-infa-text
+    {
+        width: 100%;
+    }
+    .cab{
+        width: 95%;
+    }
+}
